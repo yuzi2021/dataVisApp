@@ -72,7 +72,7 @@ This project showcases a series of interactive data visualizations designed to p
 ### 5. Bubble Chart (my own extension)
 **Visualization Type:** Interactive Bubble Chart  
 **Description:** Represents sentiment values across different daycares with interactive filtering options.
-![Bubble Chart](./assets/bubbleChart.PNG)
+![Bubble Chart](./assets/bubblechart.PNG)
 **Implementation Highlights:**
 - Bubbles positioned within predefined daycare circles.
 - Clicking on daycare buttons filters the bubbles, showing only relevant data.
