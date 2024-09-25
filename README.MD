@@ -29,19 +29,26 @@ This project showcases a series of interactive data visualizations designed to p
 
 ## Visualizations
 
-### 1. Tech Diversity: Gender (course template)
+### 1. Tech Diversity: Race (course template)
+**Visualization Type:** Pie Chart  
+**Description:** Represents the racial diversity of employees at various tech companies.
+![Tech Diversity: Race](./assets/piechart.PNG)
+**Implementation Highlights:**
+- Dynamic dropdown for selecting companies.
+- Pie chart updates based on the selected company, reflecting racial distribution.
+
+### 2. Tech Diversity: Gender (course template)
 **Visualization Type:** Stacked Bar Chart  
 **Description:** Visualizes gender diversity across prominent tech companies, displaying the proportion of male and female employees.  
-![Tech Diversity: Gender](./assets/piechart.PNG)
+![Tech Diversity: Gender](./assets/stackedbar(2).PNG)
 **Implementation Highlights:**
 - Data loaded from `gender-2018.csv`.
 - Proportions of male and female employees represented as stacked bars.
 
-
 ### 2. Pay Gap 1997–2017 (course template)
 **Visualization Type:** Line Graph  
 **Description:** Shows the pay gap between male and female employees over 20 years, highlighting trends and changes.
-![Pay Gap 1997–2017](./assets/stackedbar(2).PNG)
+![Pay Gap 1997–2017](./assets/stackedbar2.PNG)
 **Implementation Highlights:**
 - Data extracted from `all-employees-hourly-pay-by-gender-1997-2017.csv`.
 - Pay gap plotted over time with custom y-axis mapping.
@@ -54,15 +61,7 @@ This project showcases a series of interactive data visualizations designed to p
 - Temperature data mapped to color gradients for visual impact.
 - Background created using rectangles for each year.
 
-### 4. Tech Diversity: Race (course template)
-**Visualization Type:** Pie Chart  
-**Description:** Represents the racial diversity of employees at various tech companies.
-![Tech Diversity: Race](./assets/piechart.PNG)
-**Implementation Highlights:**
-- Dynamic dropdown for selecting companies.
-- Pie chart updates based on the selected company, reflecting racial distribution.
-
-### 5. Pay Gap by Job 2017 (course template)
+### 4. Pay Gap by Job 2017 (course template)
 **Visualization Type:** Scatter Plot  
 **Description:** Displays the pay gap across different job roles, with the size of each point representing the number of jobs.
 ![Pay Gap by Job 2017](./assets/scatterplot.PNG)
@@ -70,7 +69,7 @@ This project showcases a series of interactive data visualizations designed to p
 - Points mapped based on the proportion of female employees, pay gap, and job count.
 - Interactive tooltips provide additional context for each data point.
 
-### 6. Bubble Chart (my own extension)
+### 5. Bubble Chart (my own extension)
 **Visualization Type:** Interactive Bubble Chart  
 **Description:** Represents sentiment values across different daycares with interactive filtering options.
 ![Bubble Chart](./assets/bubbleChart.PNG)
@@ -79,7 +78,7 @@ This project showcases a series of interactive data visualizations designed to p
 - Clicking on daycare buttons filters the bubbles, showing only relevant data.
 - Hover effects and tooltips provide detailed information.
 
-### 7. Waffle Chart(my own extension)
+### 6. Waffle Chart(my own extension)
 **Visualization Type:** Waffle Chart  
 **Description:** Visualizes categorical data in a grid format, providing an intuitive view of proportions.
 ![Waffle Chart](./assets/wafflechart.PNG)
